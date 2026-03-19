@@ -3,7 +3,7 @@ name = "chatterbox-tts"
 version = "0.1.6"
 description = "Chatterbox: Open Source TTS and Voice Conversion by Resemble AI"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "==3.11.*"
 license = {file = "LICENSE"}
 authors = [
     {name = "resemble-ai", email = "engineering@resemble.ai"}
@@ -23,7 +23,8 @@ dependencies = [
     "pykakasi==2.3.0",
     "gradio==6.8.0",
     "pyloudnorm",
-    "omegaconf"
+    "omegaconf",
+    "ml-dtypes>=0.5.0",
 ]
 
 [project.urls]
