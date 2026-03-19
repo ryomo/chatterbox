@@ -14,6 +14,12 @@ uv sync --frozen
 
 ## Usage
 
+### Run main script
+
+```sh
+uv run main.py
+```
+
 ### Run examples
 
 ```sh
