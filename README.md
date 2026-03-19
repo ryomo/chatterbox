@@ -5,6 +5,10 @@ Fork of [resemble-ai/chatterbox: SoTA open-source TTS](https://github.com/resemb
 ## Installation
 
 ```sh
+# prod
+uv sync --frozen --no-dev
+
+# dev
 uv sync --frozen
 ```
 
